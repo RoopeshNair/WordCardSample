@@ -18,7 +18,4 @@ steps:
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
 
-- task: AzurePowerShell@4
-  inputs:
-    azureSubscription: 'RMPM'
-    ScriptType: 'InlineScript'
+
